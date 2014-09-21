@@ -7,6 +7,9 @@ use Doctrine\DBAL\Platforms\MySqlPlatform;
 use Pagekit\Component\Cache\Cache;
 use Pagekit\Component\Option\Option;
 
+/**
+ * @group now
+ */
 class OptionTest extends \PHPUnit_Framework_TestCase
 {
     public function testGet()
